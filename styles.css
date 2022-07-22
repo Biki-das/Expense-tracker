@@ -105,7 +105,6 @@ h4{
    }
    .expense-chart{
     height: 300px;
-    border: 2px solid red;
    }
   }
 
@@ -116,9 +115,7 @@ h4{
         width: 60%;
     }
 
-    .expense-chart{
-     border: 2px solid red;
-    }
+    
    }
    
 
