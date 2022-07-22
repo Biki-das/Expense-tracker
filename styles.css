@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(27, 66%, 92%);
+    font-family:'DM Sans', sans-serif;
+}
+
+.container{
+    height: 600px;  
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+.balance-view{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 10px;
+    background-color: hsl(10, 79%, 65%);
+    margin-top: 2rem;
+}
+
+.expense-chart{
+    margin-top: 2rem;
+    background-color: white;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.bottom-text{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+hr{
+    width: 95%;
+    margin-top: 2rem;
+    color: hsl(27, 66%, 92%);
+    
+}
+
+
+
+/* text styles */
+
+.left-text{
+    color: hsl(0, 0%, 100%);
+    margin-left: 2rem;
+}
+
+.top-text h2{
+    display: inline-block;
+    margin:2rem 0 0 2rem;
+    
+}
+
+.l-text{
+    margin-left: 2rem;
+}
+
+.r-text{
+    margin-right: 2rem;
+}
+
+.logo{
+    margin-right: 2rem;
+}
+
+.l-text p{
+    margin: 0px;
+    color:   hsl(28, 10%, 53%);
+}
+
+h1 {
+    margin: 0px;
+}
+
+h4{
+    margin:0;
+    text-align: right;
+}
+
+.r-text p {
+    margin:0;
+    color:hsl(28, 10%, 53%);
+}
+
+.r-text{
+    margin-top: 1rem;
+}
+
+/*  Mobile styles */
+
+@media screen and (max-width: 480px) {
+   .container{
+    width: 90%
+   }
+   .expense-chart{
+    height: 300px;
+    border: 2px solid red;
+   }
+  }
+
+
+  @media  (min-width: 498px) and (max-width: 992px) {
+    
+    .container{
+        width: 60%;
+    }
+
+    .expense-chart{
+     border: 2px solid red;
+    }
+   }
+   
+
+  
